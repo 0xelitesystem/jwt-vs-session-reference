@@ -8,15 +8,19 @@ A session cookie stores a random ID in the browser and keeps the real user data 
 
 ## What is inside
 
-- `01-how-sessions-work.md` server-side session store and the session cookie.
-- `02-how-jwts-work.md` the signed, stateless token and its three parts.
-- `03-jwt-structure-decoded.md` a decoded header.payload.signature example.
-- `04-tradeoffs.md` revocation, scaling, size, and XSS versus CSRF.
-- `05-when-to-pick-which.md` a practical decision guide.
+- [01-how-sessions-work.md](01-how-sessions-work.md) server-side session store and the session cookie.
+- [02-how-jwts-work.md](02-how-jwts-work.md) the signed, stateless token and its three parts.
+- [03-jwt-structure-decoded.md](03-jwt-structure-decoded.md) a decoded header.payload.signature example.
+- [04-tradeoffs.md](04-tradeoffs.md) revocation, scaling, size, and XSS versus CSRF.
+- [05-when-to-pick-which.md](05-when-to-pick-which.md) a practical decision guide.
 
 ## The stance
 
 Neither approach is universally better. This reference treats sessions as the sane default for a single traditional web app and JWTs as the tool for stateless, distributed, or cross-service authentication, and it is honest that JWTs are frequently reached for when a session would have been simpler and safer.
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
